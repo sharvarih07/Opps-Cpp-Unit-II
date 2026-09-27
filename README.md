@@ -7,187 +7,228 @@
 | Unit | Unit III – Operator Overloading & Polymorphism |
 
 
-OOP with C++ — All 18 Real-Time Applications
+ Object Oriented Programming with C++ — Unit II: Inheritance
 
 Overview
 
-This project contains 18 real-time/application-oriented C++ programs, organized as 3 programs for each of Units I–VI.
+This project contains the Unit II — Inheritance programs. It covers the major types of inheritance and related OOP concepts, including constructors/destructors, function overriding, abstract classes, virtual inheritance, friend classes, nested classes, and inheritance-based mini-projects.
 
-It also includes:
+Programs
 
-18 individual .cpp files
-
-One combined C++ source file for study/reference
-
-Unit-Wise Programs
-
-Unit I
+No.
 
 Program
 
-Application
+Main Concept
 
 1
 
-Smart Agriculture Sensor Monitor
+Basic Single Inheritance
+
+Single inheritance
 
 2
 
-Student Attendance Management System
+Protected Member Access
+
+protected members
 
 3
 
-E-Commerce Product Catalog
+Public vs Private Inheritance
 
-Unit II
-
-Program
-
-Application
+Inheritance access modes
 
 4
 
-Employee Payroll System
+Multilevel Inheritance
+
+Multilevel inheritance
 
 5
 
-Digital Payment Gateway
+Hierarchical Inheritance
+
+Hierarchical inheritance
 
 6
 
-Vehicle Fleet Management
+Multiple Inheritance
 
-Unit III
-
-Program
-
-Application
+Multiple inheritance
 
 7
 
-CAD Shape Drawing System
+Resolving Multiple-Inheritance Ambiguity
+
+Scope resolution
 
 8
 
-Complex Number Calculator
+Constructor and Destructor Order
+
+Construction/destruction order
 
 9
 
-Input Validation Service
+Parameterized Base Constructor
 
-Unit IV
-
-Program
-
-Application
+Base-class constructor
 
 10
 
-Student Record File System
+Function Overriding
+
+Function overriding
 
 11
 
-Server Log Analyzer
-
-12
-
-Binary File for Fixed-Size Records
-
-Unit V
-
-Program
-
-Application
-
-13
-
-Secure Banking Transaction Module
-
-14
-
-Generic Sorting Service
-
-15
-
-Template-Based Stack
-
-Unit VI
-
-Program
-
-Application
-
-16
-
-Employee Directory and Salary Lookup
-
-17
-
-Web Server Log Analysis
-
-18
-
-Student Grade Analytics
-
-Files
-
-The Individual_Programs directory contains the 18 separate programs.
-
-The project also contains:
-
-ALL_18_PROGRAMS_COMBINED.cpp
-
-This file contains the programs together for study/reference.
-
-Main Concepts
-
-Depending on the unit, the examples demonstrate:
-
-Classes and objects
-
-Encapsulation
-
-Inheritance
-
-Polymorphism
+Abstract Class and Pure Virtual Function
 
 Abstraction
 
-File handling
+12
 
-Binary files
+Virtual Base Class and Diamond Inheritance
 
-Record management
+Virtual inheritance
 
-Templates
+13
 
-Generic programming
+Friend Class
 
-Stack data structures
+Friend class
 
-Searching and sorting
+14
 
-Data analysis
+Nested Class
 
-Real-time application modeling
+Nested classes
 
-Compile an Individual Program
+15
 
-g++ -std=c++17 "filename.cpp" -o program
+Vehicle Rental System
+
+Inheritance-based mini-project
+
+16
+
+Employee Payroll System
+
+Inheritance/polymorphism mini-project
+
+Topics Covered
+
+Types of Inheritance
+
+Single inheritance
+
+Multilevel inheritance
+
+Hierarchical inheritance
+
+Multiple inheritance
+
+Virtual inheritance
+
+Diamond inheritance
+
+Access Control
+
+Public members
+
+Private members
+
+Protected members
+
+Public inheritance
+
+Private inheritance
+
+Constructors and Destructors
+
+The programs demonstrate:
+
+Base-class constructors
+
+Parameterized base constructors
+
+Derived-class constructors
+
+Constructor execution order
+
+Destructor execution order
+
+Polymorphism
+
+The unit includes function overriding and virtual functions to demonstrate polymorphic behavior.
+
+Abstraction
+
+The abstract-class example demonstrates pure virtual functions and the relationship between an abstract base class and derived classes.
+
+Friend and Nested Classes
+
+The unit also demonstrates:
+
+Friend classes
+
+Nested classes
+
+Mini-Projects
+
+Vehicle Rental System
+
+A small application demonstrating inheritance and runtime-polymorphism concepts in a vehicle rental scenario.
+
+Employee Payroll System
+
+A small application using an employee hierarchy and polymorphic salary calculation for different employee types.
+
+Compilation
+
+Example:
+
+g++ -std=c++17 "Basic Single Inheritance.cpp" -o program
 
 Run:
 
 ./program
 
-Windows PowerShell:
+Windows:
 
-g++ -std=c++17 ".\filename.cpp" -o program.exe
 .\program.exe
 
-Combined File
+Because several filenames contain spaces, place filenames inside quotation marks.
 
-The combined file is primarily useful for reference/study. If it contains multiple main() functions, it should not be compiled as one normal executable without separating or restructuring the programs.
+Important Note
 
-Learning Objective
+Each numbered program is an independent C++ program and should normally be compiled separately.
 
-The goal of this collection is to connect C++ OOP concepts with practical application scenarios such as agriculture monitoring, attendance, e-commerce, payroll, payments, fleet management, CAD, file systems, banking, sorting, stacks, employee records, server logs, and student analytics.
+Learning Objectives
+
+After completing Unit II, you should be able to:
+
+Create base and derived classes.
+
+Implement different types of inheritance.
+
+Use protected members appropriately.
+
+Understand public and private inheritance.
+
+Resolve ambiguity in multiple inheritance.
+
+Understand constructor/destructor execution order.
+
+Pass parameters to base-class constructors.
+
+Override base-class functions.
+
+Create abstract classes and pure virtual functions.
+
+Understand virtual base classes and diamond inheritance.
+
+Use friend classes and nested classes.
+
+Apply inheritance and polymorphism in small real-world applications.
